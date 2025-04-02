@@ -3,11 +3,11 @@
 Overview:
 -
 - Special Encoding Scheme 
-        "- Takes an integer between -121 and 121 (non-zero).
-        "- Encodes it using coefficients of powers of 3: (81, 27, 9, 3, 1).
-        "- Coefficients can be -1, 0, or 1.
-        "- Uses client-server socket communication.
-        "- The server sends the encoded 5-element tuple back to the client"
+  1) Takes an integer between -121 and 121 (non-zero).
+  2) Encodes it using coefficients of powers of 3: (81, 27, 9, 3, 1).
+  3) Coefficients can be -1, 0, or 1.
+  4) Uses client-server socket communication.
+  5) The server sends the encoded 5-element tuple back to the client"
 
 -How to run program:
 -
